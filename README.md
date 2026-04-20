@@ -8,59 +8,62 @@ A RESTful backend application built using Spring Boot to manage and explore job 
 
 ## 🚀 Current Features
 
-- 📄 View all job postings  
-- ➕ Add new job posts  
+- 📄 View all job postings
+- ➕ Add new job posts
 - 🏗 Layered architecture (Controller → Service → Model)
 
 ---
 
 ## 🛠 Tech Stack
 
-- Java  
-- Spring Boot  
-- Maven  
-- Lombok  
+- Java
+- Spring Boot
+- Maven
+- Lombok
 
 ---
 
 ## 📂 Project Structure
 
+```
 com.example.Job.App
 │
-├── controller # Handles HTTP requests
-├── service # Business logic
-├── model # Data classes (JobPost)
+├── controller          # Handles HTTP requests
+├── service             # Business logic
+├── model               # Data classes (JobPost)
 └── JobAppApplication.java
-
+```
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository  
-git clone https://github.com/your-username/job-app.git
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SachinTripathi08/job-app.git
+   ```
 
+2. **Open in IntelliJ / VS Code**
 
-2. Open in IntelliJ / VS Code  
+3. **Run the application**
+   ```
+   JobAppApplication.java
+   ```
 
-3. Run the application  
-JobAppApplication.java
-
-
-4. Test APIs using Postman  
+4. **Test APIs using Postman**
 
 ---
 
 ## 📌 API Endpoints (So far)
 
-| Method | Endpoint | Description |
-|--------|---------|------------|
-| GET    | /jobs   | Get all jobs |
-| POST   | /job    | Add a new job |
+| Method | Endpoint | Description      |
+|--------|----------|------------------|
+| GET    | /jobs    | Get all jobs     |
+| POST   | /job     | Add a new job    |
 
 ---
 
-## 🧪 Sample Request (POST /job)
+## 🧪 Sample Request (`POST /job`)
 
 ```json
 {
@@ -70,17 +73,30 @@ JobAppApplication.java
   "reqExperience": 2,
   "postTechStack": ["Java", "Spring Boot"]
 }
-🧠 Learning Focus
-REST API development using Spring Boot
-Backend architecture design
-Clean and maintainable code
-🔮 Planned Features
-🔍 Search & filter jobs
-🗄 Database integration (MySQL/PostgreSQL)
-🔐 Authentication (JWT)
-📊 Pagination & sorting
-🌐 Frontend integration
-👨‍💻 Author
+```
 
-Sachin
-BTech Computer Science Student
+---
+
+## 🧠 Learning Focus
+
+- REST API development using Spring Boot
+- Backend architecture design
+- Clean and maintainable code
+
+---
+
+## 🔮 Planned Features
+
+- 🔍 Search & filter jobs
+- 🗄 Database integration (MySQL/PostgreSQL)
+- 🔐 Authentication (JWT)
+- 📊 Pagination & sorting
+- 🌐 Frontend integration
+
+---
+
+## 👨‍💻 Author
+
+**Sachin Tripathi**  
+BTech Computer Science Student  
+🔗 [GitHub](https://github.com/SachinTripathi08) · [LinkedIn](https://www.linkedin.com/in/sachintripathi06/)
