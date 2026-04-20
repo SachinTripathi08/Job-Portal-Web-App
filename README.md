@@ -91,7 +91,7 @@ com.example.Job.App
 - 🗄 Database integration (MySQL/PostgreSQL)
 - 🔐 Authentication (JWT)
 - 📊 Pagination & sorting
-- 🌐 Frontend integration
+
 
 ---
 
